@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Selector hijo</title>
+        <style>
+            /*Cualquier articulo que sea hijo directo de un elemento section, 
+            esto es., cualquier elemento articulo cuyo padre inmediato es un 
+            elemento section*/
+            section > article{
+                color: green;
+                font-size: 24px;
+            }
+            /*Cualquier elemento h2 el cual es hijo directo de un elemento 
+            section, esto es., cualquier elemento h2 cuyo padre inmediato es una
+            seccion*/
+            section > h2{
+                color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Selector hijo</h1>
+        <section>
+            <h2>Subheading 1</h2>
+            <div>
+                <article>
+                    ARTICLE el cual esta dentro de DIV, el cual esta dentro de 
+                    SECTION
+                </article>
+            </div>
+        </section>
+        <section>
+            <article>
+                ARTICLE como hijo directo de un elemento de SECTION.
+            </article>
+        </section>
+        <h2>Subheading 2</h2>
+    </body>
+</html>
