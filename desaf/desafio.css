@@ -1,3 +1,6 @@
 h1{
-    color: green;
+    color: red;
+}
+#parte2:hover, #parte3:hover{
+    color: darkgoldenrod;
 }
