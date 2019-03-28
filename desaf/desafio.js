@@ -1,1 +1,2 @@
-//nada por el momento
+var ruta = window.location;
+document.write("Estas en: "+ ruta);
